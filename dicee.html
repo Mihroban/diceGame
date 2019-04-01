@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 onClick="window.location.reload()">Refresh Me</h1>
+      <p class="click-text">[Click Above To Refresh]</p>
+
+      <div class="dice">
+        <p class="player-1">Player 1</p>
+        <img class="img1" src="images/dice6.png" alt="dice-picture">
+        <button type="button" class="btn1" onclick="rollTheDice1();"> click me</button>
+      </div>
+
+      <div class="dice">
+        <p class="player-2">Player 2</p>
+        <img class="img2" src="images/dice6.png" alt="dice-picture">
+        <button type="button" class="btn2" onclick="rollTheDice2(); winedPlayer(randomNum1, randomNum2)"> Click me</button>
+      </div>
+
+    </div>
+
+<script src="index.js">
+
+</script>
+
+  </body>
+
+  <footer>
+      www 🎲 Modified By Mihroban 🎲 com
+  </footer>
+</html>
